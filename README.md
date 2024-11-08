@@ -20,7 +20,7 @@ This project is a simple and interactive dashboard application meant for use acr
 
 ### Demo
 
-[[Live demo link if available](https://dashboard-assignment-livid.vercel.app/)]
+[[Live demo link](https://dashboard-assignment-livid.vercel.app/)]
 
 ## Features
 

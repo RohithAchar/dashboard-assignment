@@ -10,7 +10,13 @@ import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Separator } from "@/components/ui/separator";
-import { Sheet, SheetContent } from "@/components/ui/sheet";
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+} from "@/components/ui/sheet";
 import { Skeleton } from "@/components/ui/skeleton";
 import {
   Tooltip,
@@ -206,7 +212,17 @@ const Sidebar = React.forwardRef<
             }
             side={side}
           >
-            <div className="flex h-full w-full flex-col">{children}</div>
+            <SheetTitle>
+              {/* Make the Menu screen reader only */}
+              <span hidden>Menu</span>
+
+              <div className="flex h-full w-full flex-col">{children}</div>
+            </SheetTitle>
+            <SheetHeader>
+              <SheetDescription className="hidden">
+                Side bar menu
+              </SheetDescription>
+            </SheetHeader>
           </SheetContent>
         </Sheet>
       );
