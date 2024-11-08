@@ -216,7 +216,7 @@ const Sidebar = React.forwardRef<
               {/* Make the Menu screen reader only */}
               <span hidden>Menu</span>
 
-              <div className="flex h-screen w-full flex-col">{children}</div>
+              <div className="flex w-full h-screen flex-col">{children}</div>
             </SheetTitle>
             <SheetHeader>
               <SheetDescription className="hidden">
