@@ -53,7 +53,7 @@ To set up the project on your local machine, follow these steps:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/RohithAchar/dashboard-assignment
    ```
 2. Navigate to the project folder:
    ```bash
