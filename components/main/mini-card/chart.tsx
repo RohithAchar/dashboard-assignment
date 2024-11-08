@@ -19,11 +19,6 @@ const chartConfig = {
 } satisfies ChartConfig;
 
 const Chart = () => {
-  const [isMounted, setIsMounted] = React.useState(false);
-  React.useEffect(() => {
-    setIsMounted(true);
-  }, []);
-  if (!isMounted) return null;
   return (
     <ChartContainer className="h-[30px]" config={chartConfig}>
       <AreaChart accessibilityLayer data={startingKnowledge} margin={{}}>
