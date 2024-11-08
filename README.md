@@ -57,7 +57,7 @@ To set up the project on your local machine, follow these steps:
    ```
 2. Navigate to the project folder:
    ```bash
-   cd your-repo-name
+   cd dashboard-assignment
    ```
 3. Install dependencies:
    ```bash
