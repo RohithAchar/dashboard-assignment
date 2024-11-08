@@ -30,7 +30,7 @@ import GroupLeaderBoard from "@/components/main/group-leaderboard";
 
 export default function Home() {
   return (
-    <div className="p-6 md:p-10 bg-background flex flex-col space-y-8">
+    <div className="p-6 px-4 md:p-10 bg-background flex flex-col space-y-8">
       <Navbar />
       <Heading title="Reports">
         <button className="flex items-center gap-2 text-[#4D4D4D]">
